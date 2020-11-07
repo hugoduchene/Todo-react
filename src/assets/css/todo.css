@@ -1,0 +1,135 @@
+.box_todo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.sub_box_todo{
+    background-color: #262E41;
+    border-radius: 6px;
+    padding: 3%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 60vh;
+}
+.flex_align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_trash{
+    background-color: #5881EA;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13%;
+    border-radius: 6px;
+}
+
+.btn_trash:hover{
+    color: #5881EA;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.title_card{
+    font-size: 25px;
+
+}
+
+.sub_box_todo::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+
+  .sub_box_todo::-webkit-scrollbar-track {
+    background: #262E41;        /* color of the tracking area */
+}
+
+.sub_box_todo::-webkit-scrollbar-thumb {
+    background-color: #FF7171;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+
+.head_card_todo{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.entire_width{
+    width: 100%;
+}
+
+.edit{
+    background-color: #FF7171;
+    width: 10vh;
+    padding: 1.2%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.edit:hover{
+    color: #FF7171;
+    background-color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-plus{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5881EA;
+    font-size: 25px;
+}
+
+.btn-plus:hover{
+    color: #5881EA;
+    background-color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.modal_todo{
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form_modal{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-add-todo{
+    border: none;
+    width: 100%;
+    background-color: #5881EA;
+    color: white;
+    padding: 2%;
+}
+
+.btn-add-todo:hover{
+    color: #5881EA;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}

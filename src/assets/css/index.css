@@ -1,0 +1,11 @@
+body{
+    background-color: #010A20;
+}
+
+p{
+    word-break: break-all;
+}
+
+.none{
+    display: none;
+}
